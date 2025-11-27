@@ -23,13 +23,10 @@ All components are reproducible end-to-end via the provided run.sh script.
 
 /
 ├── run_sim.py              # Main simulation engine
-├── combine_results.py      # (If present) Post-processing utility
+├── combine_results.py      # Post-processing utility
 ├── run.sh                  # Script to regenerate the full results
 ├── Problem2_readme.pdf     # One-page explanation of strategy & assumptions
-├── make_results.py         # (Optional) Converter for summary → Problem2_results.csv
-├── results/                # Folder to store generated outputs (empty in repo)
-├── customdata_new/         # (Not included — see note below)
-└── .git/                   # Git history
+├── make_results.py         # Converter for summary → Problem2_results.csv
 
 Important Note — Data Not Included
 
@@ -106,3 +103,4 @@ If you have questions regarding assumptions, structure, or reproducibility, plea
 
 Problem2_readme.pdf
 or contact me via the email listed in the assignment submission.
+
